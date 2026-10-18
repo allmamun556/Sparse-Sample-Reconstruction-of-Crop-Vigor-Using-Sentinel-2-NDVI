@@ -1,0 +1,18 @@
+# Python dependencies for precision_ag_spatial_interpolation_REVISED.ipynb
+# Developed on Google Colab (Python 3.12). Pin versions here once you freeze your environment.
+numpy
+pandas
+scipy
+scikit-learn
+matplotlib
+matplotlib-scalebar
+geopandas
+shapely
+rasterio
+pykrige
+folium
+requests
+# Only needed when building the reference raster from Google Earth Engine
+# (not needed if output/ndvi_reference_utm_raw.tif is cached):
+earthengine-api
+geemap
