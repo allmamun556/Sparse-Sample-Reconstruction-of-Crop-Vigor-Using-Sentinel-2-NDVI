@@ -116,11 +116,6 @@ The study parcel is an arable field near **Prenzlau, Landkreis Uckermark, Brande
 
 **Figure 1.** Location of the 98.1 ha study parcel (red star) within Landkreis Uckermark (green outline), Brandenburg (yellow in the inset), Germany. Main towns are shown for orientation; the eastern edge of the district borders Poland along the Oder. Projection ETRS89 / UTM zone 33N (EPSG:25833); 20 km scale bar; district boundaries from GADM.
 
-<p align="center">
-  <img src="figures/notebook/Fig1_study_area.png" alt="Notebook study-area figure: Sentinel-2 true-colour context with Brandenburg outline" width="460">
-</p>
-
-**Figure 2.** Study-area overview generated in the notebook (§1b), WGS 84 / UTM 33N. The small Sentinel-2 true-colour tile in the north-east marks the parcel; the yellow line is the administrative context outline. Because the FAO GAUL 2015 level-2 query did not match "Uckermark" by name, the returned context unit is the Brandenburg-wide outline (inner ring: Berlin). Figure 1 shows the district-level location.
 
 **Field boundary.** A single boundary definition is used for the whole study and is frozen to `output/field_boundary.geojson` on the first run. The notebook first queries the OpenStreetMap Overpass API for the `landuse=farmland` parcel containing the seed point; because Overpass was unreachable during the reported run, the **digitised fallback polygon** (8 vertices) was used:
 
